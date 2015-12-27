@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#173d3b3b"
+    >
+
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="#0fe6e6e6"
+    android:layout_marginTop="20dp"
+    android:src="@drawable/a"
+    android:scaleType="centerInside"
+    android:layout_centerHorizontal="true"
+    />
+
+
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/my_toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--android:elevation="4dp"-->
+        <!--android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
+        <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>-->
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:text="微信 6.3.7"
+        android:textSize="18sp"
+        android:textStyle="normal"/>
+        <ListView
+            android:background="#FFFFFF"
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_below="@+id/version"
+            android:layout_marginTop="20dp">
+
+        </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listview"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/line_1"
+            android:textColor="#ec273eff"/>
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/line_2"
+            android:gravity="center"
+            android:textColor="#40000000"/>
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright @ 2001-2005 Tencent."
+            android:gravity="center"
+            android:textColor="#40000000"/>
+        <TextView
+            android:textSize="12sp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Rights Reserved."
+            android:gravity="center"
+            android:textColor="#40000000"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

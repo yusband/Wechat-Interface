@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="appName">关于微信</string>
+    <string name="line_1">使用条款和隐私政策</string>
+    <string name="line_2">腾讯公司 版权所有</string>
+</resources>
